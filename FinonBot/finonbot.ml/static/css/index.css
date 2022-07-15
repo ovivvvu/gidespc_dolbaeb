@@ -1,0 +1,98 @@
+:root {
+    --primary: #2974ef;
+}
+
+body {
+    background-color: #f2f2f2 !important;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+h1 {
+    font-weight: 700 !important;
+}
+
+.select {
+    color: var(--primary);
+}
+
+.gradient {
+    background: linear-gradient(-45deg, #dd9243, #e73c7e, #23a6d5, #33d0de);
+	background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+}
+
+nav a {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+.jumbotron.title {
+    color: #f2f2f2 !important;
+    padding: 100px;
+    text-align: center;
+}
+
+.jumbotron.title p {
+    font-size: 20px !important;
+}
+
+.jumbotron.title .btn {
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+::selection {
+    background: var(--primary);
+    color: #f2f2f2;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.block2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.block2 ul {
+    text-align: left !important;
+}
+
+.block2 .card2 {
+    margin: 30px auto;
+    float: none;
+    margin-bottom: 50px;
+    width: 400px;
+}
+
+.block2 h1 {
+    font-size: 54px;
+}
+
+.block2 h2 {
+    font-size: 28px;
+}
+
+.block2 p {
+    font-size: 20px;
+}
